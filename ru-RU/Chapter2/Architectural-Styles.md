@@ -75,7 +75,7 @@ $result = mysql_query('SELECT id, title, content FROM posts', $link);?>
  </html>
  <?php mysql_close($link); ?>
 ```
-!*[Cool]*(https://raw.githubusercontent.com/TalismanFR/dddinphp/master/share/cool.jpeg)
+![Cool](https://raw.githubusercontent.com/TalismanFR/dddinphp/master/share/cool.jpeg)
 
 <br>
 
@@ -163,7 +163,7 @@ if (null !== $errormsg) : ?>
 
 Основное правило многоуровневой архитектуры - это то, что каждый слой должен иметь связь (возможность использовать) с нижестоящими слоями, как показано на рисунке ниже:
 
-!*[Layered Architecture]*(https://raw.githubusercontent.com/TalismanFR/dddinphp/master/share/image--004.jpg)
+![Layered Architecture](https://raw.githubusercontent.com/TalismanFR/dddinphp/master/share/image--004.jpg)
 
 **Многоуровневая Архитектура** стремится к разделению различных компонентов приложения. Например, с точки зрения предыдущего примера, **Представление** сообщения в блоге должно быть полностью независимым от сообщения в блоге как концептуальной сущности.
 Сообщение в блоге как концептуальная сущность может быть отображено одним или несколькими **Представлениями**, вместо того чтобы быть тесно связанным с каким либо конкретным **Представлением**. Это принято называть **Разделением Ответственности** (Separation of Concerns).
@@ -187,7 +187,7 @@ if (null !== $errormsg) : ?>
 **Представление (The View)**
 Отображает различные Представления слоя Модели и предоставляет способ вызывать изменения в состоянии модели.
 
-!*[The MVC pattern]*(https://raw.githubusercontent.com/TalismanFR/dddinphp/master/share/image--006.jpg)
+![The MVC pattern](https://raw.githubusercontent.com/TalismanFR/dddinphp/master/share/image--006.jpg)
 
 <br>
 
